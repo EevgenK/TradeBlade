@@ -1,0 +1,29 @@
+.logo {
+  width: 108px;
+  height: 52px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.icon {
+  stroke: transparent;
+  stroke-width: 0.8;
+  stroke-opacity: 0.3;
+  transition: stroke var(--transition);
+  border: 1px solid yellow;
+}
+.logo:hover .icon,
+.logo:focus .icon {
+  stroke: var(--bg-color_hover);
+}
+
+/* .icon {
+  width: 108px;
+  height: 52px;
+} */
+@media screen and (min-width: 1440px) {
+  .logo {
+    width: 132px;
+    height: 64px;
+  }
+}

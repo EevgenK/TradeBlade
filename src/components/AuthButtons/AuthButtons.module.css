@@ -1,0 +1,37 @@
+.buttons {
+  display: flex;
+  gap: 12px;
+  flex-direction: row-reverse;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  color: var(--grey-color);
+  overflow: hidden;
+}
+.sidebar_buttons {
+  display: flex;
+  gap: 16px;
+  color: var(--grey-color);
+}
+.sidebar_buttons {
+  padding-top: 118px;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.register_btn {
+  overflow: visible;
+}
+.enter_btn {
+  background: rgba(87, 225, 255, 0.2);
+  color: var(--bg-color);
+  width: 50%;
+}
+@media screen and (min-width: 1440px) {
+  .buttons {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+}
