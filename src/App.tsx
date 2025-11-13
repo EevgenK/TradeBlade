@@ -4,7 +4,7 @@ const App = () => {
   return (
     <>
       <h1>Hello World!</h1>
-      <CustomButton>Hover this custom button</CustomButton>
+      <CustomButton>регистрация</CustomButton>
     </>
   );
 };

@@ -1,10 +1,10 @@
 :root {
-  --main-bg_color: #fff;
-  --bg-color: yellow;
-  --bg-color_hover: orange;
-  --text-color: #121417;
-  --text-grey: #8a8a89;
-  --green-color: #38cd3e;
+  --main-bg_color: #000000;
+  --bg-color: #57e1ff;
+  --bg-color_hover: #45abc2;
+  --text-color: #fff;
+  --purple: #6a54ff;
+  --grey-color: #030718;
 
   --error-color: rgb(250, 59, 59);
   --shadow: rgba(197, 233, 233, 0.3);

@@ -13,10 +13,10 @@ body {
   background-color: var(--main-bg_color);
   color: var(--text-color);
   /*CHANGE TO YOUR FONTS*/
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBMPlexSans', sans-serif;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 *,
